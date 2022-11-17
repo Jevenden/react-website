@@ -12,6 +12,7 @@ const Left = styled.div`
 
 const Image = styled.img`
     height: 50%;
+    margin-top: 13%;
 `
 
 const Right = styled.div`
@@ -29,6 +30,8 @@ const Title = styled.h1`
 `
 const Desc = styled.p`
 font-size: 20px;
+margin-top: 20px;
+color: #555;
 `
 
 const Service = () => {
