@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Woman from "../img/woman.png"
+import AnimatedShapes from './AnimatedShapes'
 
 const Container = styled.div`
     height: calc( 100vh - 50px );
@@ -84,6 +85,7 @@ const intro = () => {
         <Right>
             <Image src={Woman}></Image>
         </Right>
+        <AnimatedShapes />
     </Container>
   )
 }
