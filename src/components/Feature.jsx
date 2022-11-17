@@ -12,7 +12,8 @@ const Left = styled.div`
 `
 
 const Image = styled.img`
-    width: 80%;
+    width: 65%;
+    padding: 10px;
 `
 
 const Right = styled.div`
@@ -24,7 +25,7 @@ const Right = styled.div`
 
 const Title = styled.span`
 font-size: 70px;
-margin-left: 10px;
+margin-left: 30px;
 `
 
 const SubTitle = styled.span`
@@ -32,14 +33,14 @@ font-size: 24px;
 font-style: italic;
 color: #333;
 margin-top: 30px;
-margin-left: 10px;
+margin-left: 30px;
 `
 
 const Desc = styled.span`
 font-size: 20px;
 color: #777;
 margin-top: 30px;
-margin-left: 10px;
+margin-left: 30px;
 `
 
 const Button = styled.span`
@@ -52,7 +53,7 @@ font-size: 20px;
 border-radius: 20px;
 margin-top: 20px;
 cursor: pointer;
-margin-left: 10px;
+margin-left: 30px;
 `
 
 const Feature = () => {
