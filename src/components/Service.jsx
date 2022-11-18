@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import How from "../img/how.png"
 import MiniCard from './MiniCard'
@@ -10,11 +10,24 @@ const Container = styled.div`
 
 const Left = styled.div`
     width: 50%;
+    position: relative;
 `
 
 const Image = styled.img`
+    display: ${props => props.open && "none"};
     height: 50%;
     margin-top: 13%;
+`
+
+const Video = styled.video`
+    display: ${props => !props.open && "none"};
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    right: 15%;
+    bottom: 0;
+    left: 0;
+    margin: auto; 
 `
 
 const Right = styled.div`
@@ -62,10 +75,12 @@ const Icon = styled.img`
 `
 
 const Service = () => {
+    const [open, setOpen] = useState(false)
   return (
     <Container>
         <Left>
-            <Image src={How}/>
+            <Image open={open} src={How}/>
+            <Video open={open} autoPlay loop controls src="https://player.vimeo.com/external/449759244.sd.mp4?s=d5f3da46ddc17aa69a7de84f1e420610ebd2a391&profile_id=139&oauth2_token_id=57447761"/>
         </Left>
         <Right>
             <Wrapper>
@@ -76,7 +91,9 @@ const Service = () => {
             <MiniCard/>
             <MiniCard/>
         </CardContainer> 
-        <Button><Icon src={Play}/>Learn More</Button>
+        <Button onClick={() => setOpen(true)}>
+            <Icon src={Play}/>Learn More
+            </Button>
         </Wrapper>
         </Right>
     </Container>

@@ -23,7 +23,12 @@ const Right = styled.div`
     justify-content: center;
 `
 
-const Title = styled.span`
+const Title1 = styled.span`
+font-size: 70px;
+margin-left: 50px;
+`
+
+const Title2 = styled.span`
 font-size: 70px;
 margin-left: 30px;
 `
@@ -33,14 +38,20 @@ font-size: 24px;
 font-style: italic;
 color: #333;
 margin-top: 30px;
-margin-left: 30px;
+margin-left: 20px;
 `
 
 const Desc = styled.span`
 font-size: 20px;
 color: #777;
 margin-top: 30px;
-margin-left: 30px;
+margin-left: 10px;
+`
+
+const Desc2 = styled.span`
+font-size: 20px;
+color: #777;
+margin-top: 30px;
 `
 
 const Button = styled.span`
@@ -53,7 +64,6 @@ font-size: 20px;
 border-radius: 20px;
 margin-top: 20px;
 cursor: pointer;
-margin-left: 30px;
 `
 
 const Feature = () => {
@@ -61,13 +71,15 @@ const Feature = () => {
     <Container>
         <Left><Image src={App}/></Left>
         <Right>
-            <Title>
+            <Title1>
                 <b>good</b> design<br/>
+            </Title1>
+            <Title2>
                 <b>good</b> business
-            </Title>
+            </Title2>
             <SubTitle>We know that good design means good business.</SubTitle>
             <Desc>Luke loves poop</Desc>
-            <Desc>It's his favorite thing</Desc>
+            <Desc2>It's his favorite thing</Desc2>
             <Button>Learn More</Button>
         </Right>
         <AnimatedShapes/>
