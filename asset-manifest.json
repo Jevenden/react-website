@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/styled-react-website/static/js/main.9e8c7dfe.js",
+    "static/media/how.png": "/styled-react-website/static/media/how.e30368012500f29d482f.png",
+    "static/media/woman.png": "/styled-react-website/static/media/woman.3b260ab0e4be8d0fd301.png",
+    "static/media/app.png": "/styled-react-website/static/media/app.d9eedbc6e912ef6ebed9.png",
+    "index.html": "/styled-react-website/index.html",
+    "main.9e8c7dfe.js.map": "/styled-react-website/static/js/main.9e8c7dfe.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.9e8c7dfe.js"
+  ]
+}
