@@ -94,7 +94,7 @@ const intro = () => {
     <Container>
         <Left>
             <Title>Adventures in the Creative Age</Title>
-            <Desc>Luke loves poop</Desc>
+            <Desc>Created using React styled components</Desc>
             <Info>
                 <Button>Start a Project</Button>
                 <Contact>

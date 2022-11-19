@@ -94,8 +94,8 @@ const Feature = () => {
                 <b>good</b> business
             </Title2>
             <SubTitle>We know that good design means good business.</SubTitle>
-            <Desc>Luke loves poop</Desc>
-            <Desc2>It's his favorite thing</Desc2>
+            <Desc>At the end of the day</Desc>
+            <Desc2>good design IS good business</Desc2>
             <Button>Learn More</Button>
         </Right>
         <AnimatedShapes/>
