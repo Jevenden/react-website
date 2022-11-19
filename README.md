@@ -35,3 +35,5 @@ This is an interactive, frontend only, single page website, so usage should be f
 Github Repo for this application: https://github.com/Jevenden/styled-react-website
 
 Deployment link: https://jevenden.github.io/styled-react-website/
+
+![2022-11-19 (1)](https://user-images.githubusercontent.com/102879070/202866597-94efa449-97d2-4e3f-aed8-4c83ea36bfd9.png)
